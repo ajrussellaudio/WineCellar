@@ -21,17 +21,17 @@ public class WineTest {
 //        wine.setName("La Rioja Alta Gran Reserva");
 //        assertEquals("La Rioja Alta Gran Reserva", wine.getName());
 //    }
-//
+
 //    @Test
 //    public void hasGrape() {
 //        assertEquals("Tempranillo", wine.getGrape());
 //    }
-//
+
 //    @Test
 //    public void hasVintage() {
 //        assertEquals(2007, wine.getVintage());
 //    }
-//
+
 //    @Test
 //    public void canGetAgeInYears() {
 //        assertEquals(11, wine.age());
