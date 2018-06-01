@@ -3,7 +3,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class WineTest {
+public class
+
+WineTest {
     private Wine wine;
 
     @Before
@@ -16,24 +18,24 @@ public class WineTest {
         assertEquals("La Rioja Alta", wine.getName());
     }
 
-//    @Test
-//    public void canSetName() {
-//        wine.setName("La Rioja Alta Gran Reserva");
-//        assertEquals("La Rioja Alta Gran Reserva", wine.getName());
-//    }
+    @Test
+    public void canSetName() {
+        wine.setName("La Rioja Alta Gran Reserva");
+        assertEquals("La Rioja Alta Gran Reserva", wine.getName());
+    }
 
-//    @Test
-//    public void hasGrape() {
-//        assertEquals("Tempranillo", wine.getGrape());
-//    }
+    @Test
+    public void hasGrape() {
+        assertEquals("Tempranillo", wine.getVarietal());
+    }
 
-//    @Test
-//    public void hasVintage() {
-//        assertEquals(2007, wine.getVintage());
-//    }
+    @Test
+    public void hasVintage() {
+        assertEquals(2007, wine.getVintage());
+    }
 
-//    @Test
-//    public void canGetAgeInYears() {
-//        assertEquals(11, wine.age());
-//    }
+    @Test
+    public void canGetAgeInYears() {
+        assertEquals(11, wine.getAge());
+    }
 }
